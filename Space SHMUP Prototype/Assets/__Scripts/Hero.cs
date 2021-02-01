@@ -18,6 +18,10 @@ public class Hero : MonoBehaviour
     public bool _______________________;
 
     public Bounds bounds;
+    // Declare a new delegate type WeaponFireDelegate
+    public delegate void WeaponFireDelegate();
+    // Create a WeaponFireDelegate field named fireDelegate
+    public WeaponFireDelegate fireDelegate;
 
     private void Awake()
     {
@@ -25,11 +29,6 @@ public class Hero : MonoBehaviour
         bounds = Utils.CombineBoundsOfChildren(this.gameObject);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -56,6 +55,14 @@ public class Hero : MonoBehaviour
 
         // Rotate the ship to make it feel more dynamic
         transform.rotation = Quaternion.Euler(yAxis * pitchMult, xAxis * rollMult, 0);
+
+        // Use the fireDelegatte to fire Weapons
+        // First, make sure the Axis("Jump") button is pressed
+        // Then ensure that fireDelegate ins't null to avoid an err
+        if (Input.GetAxis("Jump") == 1 && fireDelegate != null)
+        {
+            fireDelegate();
+        }
     }
 
 

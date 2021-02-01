@@ -8,14 +8,25 @@ public class Enemy : MonoBehaviour
     public float fireRate = 0.3f;
     public float health = 10;
     public int score = 100;
+    public int showDamageForFrames = 2;
 
     public bool __________________;
 
+    public Color[] originalColors;
+    public Material[] materials;
+    public int remainingDamageFrames = 0;
     public Bounds bounds;
     public Vector3 boundsCenterOffset;
 
     private void Awake()
     {
+        materials = Utils.GetAllMaterials(gameObject);
+        originalColors = new Color[materials.Length];
+        for (int i = 0; i < materials.Length; i++)
+        {
+            originalColors[i] = materials[i].color;
+        }
+
         InvokeRepeating("CheckOffscreen", 0f, 2f);
     }
 
@@ -24,6 +35,14 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         Move();
+        if (remainingDamageFrames > 0)
+        {
+            remainingDamageFrames--;
+            if (remainingDamageFrames == 0)
+            {
+                UnShowDamage();
+            }
+        }
     }
 
     public virtual void Move()
@@ -35,14 +54,8 @@ public class Enemy : MonoBehaviour
 
     public Vector3 pos
     {
-        get
-        {
-            return (this.transform.position);
-        }
-        set
-        {
-            this.transform.position = value;
-        }
+        get {   return (this.transform.position);   }
+        set {   this.transform.position = value;    }
     }
 
     void CheckOffscreen()
@@ -66,6 +79,51 @@ public class Enemy : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        GameObject other = collision.gameObject;
+        switch (other.tag)
+        {
+            case "ProjectileHero":
+                Projectile p = other.GetComponent<Projectile>();
+                // Enemies do not take damage unless they are onscreen
+                // This stops the player from shooting them before they are visible
+                bounds.center = transform.position + boundsCenterOffset;
+                if (bounds.extents == Vector3.zero || Utils.ScreenBoundsCheck(bounds, BoundsTest.offScreen) != Vector3.zero)
+                {
+                    Destroy(other);
+                    break;
+                }
+                // Hurt this enemy
+                ShowDamage();
+                // Get the damage amount from the Projectile.type & Main.W_DEFS
+                health -= Main.W_DEFS[p.type].damageOnHit;
+                if (health <= 0)
+                {
+                    Destroy(this.gameObject);
+                }
+                Destroy(other);
+                break;
+        }
+    }
+
+    void ShowDamage()
+    {
+        foreach (Material m in materials)
+        {
+            m.color = Color.red;
+        }
+        remainingDamageFrames = showDamageForFrames;
+    }
+
+    void UnShowDamage()
+    {
+        for (int i = 0; i < materials.Length; i++)
+        {
+            materials[i].color = originalColors[i];
         }
     }
 }
