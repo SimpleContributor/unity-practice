@@ -48,10 +48,16 @@ public class Weapon : MonoBehaviour
     public GameObject collar;
     public float lastShot;
 
+
+    private void Awake()
+    {
+        collar = transform.Find("Collar").gameObject;
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
-        collar = transform.Find("Collar").gameObject;
         // Call SetType() properly for the default _type
         SetType(_type);
 
@@ -87,6 +93,7 @@ public class Weapon : MonoBehaviour
         }
         def = Main.GetWeaponDefinition(_type);
         collar.GetComponent<Renderer>().material.color = def.color;
+        
         lastShot = 0;
     }
 
