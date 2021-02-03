@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
     public Bounds bounds;
     public Vector3 boundsCenterOffset;
 
-    private void Awake()
+    public void Awake()
     {
         materials = Utils.GetAllMaterials(gameObject);
         originalColors = new Color[materials.Length];
@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         Move();
         if (remainingDamageFrames > 0)
@@ -59,7 +59,7 @@ public class Enemy : MonoBehaviour
         set {   this.transform.position = value;    }
     }
 
-    void CheckOffscreen()
+    public void CheckOffscreen()
     {
         // If bounds are still their default value...
         if (bounds.size == Vector3.zero)
@@ -83,7 +83,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter(Collision collision)
     {
         GameObject other = collision.gameObject;
         switch (other.tag)
@@ -113,7 +113,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    void ShowDamage()
+    public void ShowDamage()
     {
         foreach (Material m in materials)
         {
@@ -122,7 +122,7 @@ public class Enemy : MonoBehaviour
         remainingDamageFrames = showDamageForFrames;
     }
 
-    void UnShowDamage()
+    public void UnShowDamage()
     {
         for (int i = 0; i < materials.Length; i++)
         {
