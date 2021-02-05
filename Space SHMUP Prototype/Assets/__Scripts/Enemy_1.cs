@@ -14,10 +14,6 @@ public class Enemy_1 : Enemy
     private float x0 = -12345;
     private float birthTime;
 
-    private void Awake()
-    {
-        base.Awake();
-    }
 
 
     // Start is called before the first frame update
@@ -51,9 +47,5 @@ public class Enemy_1 : Enemy
         base.Move();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        base.Update();
-    }
+
 }
