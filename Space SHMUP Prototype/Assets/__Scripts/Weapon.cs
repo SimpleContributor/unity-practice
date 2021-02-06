@@ -119,6 +119,22 @@ public class Weapon : MonoBehaviour
                 p = MakeProjectile();
                 p.GetComponent<Rigidbody>().velocity = new Vector3(0.2f, 0.9f, 0) * def.velocity;
                 break;
+
+            case WeaponType.phaser:
+                p = MakeProjectile();
+                Vector3 tempPos = p.transform.position;
+                tempPos.x += 1;
+                p.transform.position = tempPos;
+                p.GetComponent<Rigidbody>().velocity = Vector3.up * def.velocity;
+
+                p = MakeProjectile();
+                tempPos = p.transform.position;
+                tempPos.x -= 1;
+                p.transform.position = tempPos;
+                p.GetComponent<Rigidbody>().velocity = Vector3.up * def.velocity;
+
+
+                break;
         }
     }
 
@@ -139,6 +155,6 @@ public class Weapon : MonoBehaviour
         Projectile p = go.GetComponent<Projectile>();
         p.type = type;
         lastShot = Time.time;
-        return (p);
+        return p;
     }
 }

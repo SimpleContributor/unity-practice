@@ -199,3 +199,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45d4ef0c6054a32478f9f20a3a726372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ______________________________: 0
+  _type: 1
+  def:
+    type: 0
+    letter: 
+    color: {r: 1, g: 1, b: 1, a: 1}
+    projectilePrefab: {fileID: 0}
+    projectileColor: {r: 1, g: 1, b: 1, a: 1}
+    damageOnHit: 0
+    continuousDamage: 0
+    delayBetweenShots: 0
+    velocity: 20
+  collar: {fileID: 0}
+  lastShot: 0

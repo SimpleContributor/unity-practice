@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public float waveFrequency = 2;
+    public float waveWidth = 5;
+
     [SerializeField]
     private WeaponType _type;
+
+    private float x0;
+    private float birthTime;
 
     public WeaponType type
     {
@@ -32,6 +38,30 @@ public class Projectile : MonoBehaviour
         if (Utils.ScreenBoundsCheck(GetComponent<Collider>().bounds, BoundsTest.offScreen) != Vector3.zero)
         {
             Destroy(this.gameObject);
+        }
+    }
+
+    private void Start()
+    {
+        x0 = this.transform.position.x;
+
+        birthTime = Time.deltaTime;
+    }
+
+    private void FixedUpdate()
+    {
+        // This will move the phaser projectiles in a sine wave
+        if (_type == WeaponType.phaser)
+        {
+            
+            Vector3 tempPos = this.transform.position;
+
+            float age = Time.time - birthTime;
+            float theta = Mathf.PI * 2 * age / waveFrequency;
+            float sin = Mathf.Sin(theta);
+            tempPos.x = x0 + waveWidth * sin;
+            this.transform.position = tempPos;
+
         }
     }
 }

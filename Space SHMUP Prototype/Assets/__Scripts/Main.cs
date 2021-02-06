@@ -17,6 +17,7 @@ public class Main : MonoBehaviour
         {
             WeaponType.blaster, WeaponType.blaster,
             WeaponType.spread,
+            WeaponType.phaser,
             WeaponType.shield
         };
 
