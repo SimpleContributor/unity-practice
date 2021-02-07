@@ -409,7 +409,7 @@ GameObject:
   - component: {fileID: 592234864}
   - component: {fileID: 592234863}
   m_Layer: 8
-  m_Name: scene_foreground
+  m_Name: scene_0_foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 1512471763}
   - component: {fileID: 1512471764}
   m_Layer: 0
-  m_Name: scene_background
+  m_Name: scene_0_background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -843,6 +843,10 @@ PrefabInstance:
     - target: {fileID: 233473561131692114, guid: f32041b2c566d7e41ba48c99df829a19, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 233473561774188025, guid: f32041b2c566d7e41ba48c99df829a19, type: 3}
+      propertyPath: MaxSpeed
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 233473561774188028, guid: f32041b2c566d7e41ba48c99df829a19, type: 3}
       propertyPath: m_LocalPosition.x

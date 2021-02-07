@@ -30,27 +30,24 @@ SpriteAtlas:
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: c5aa2e576b239ca4685b7ee8c7397a20, type: 3}
     - {fileID: 2800000, guid: 6804f1e928e45b34c8555f438ba47b62, type: 3}
     - {fileID: 2800000, guid: 5775a68e7c9347747bc276ab3a41f09b, type: 3}
     - {fileID: 2800000, guid: 59bb10694ff32ec4aa69c62519c314db, type: 3}
-    totalSpriteSurfaceArea: 714988
+    totalSpriteSurfaceArea: 107554
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: c5aa2e576b239ca4685b7ee8c7397a20, type: 3}
   - {fileID: 21300000, guid: 59bb10694ff32ec4aa69c62519c314db, type: 3}
-  - {fileID: 21300000, guid: 6804f1e928e45b34c8555f438ba47b62, type: 3}
+  - {fileID: -7441760307412509423, guid: 6804f1e928e45b34c8555f438ba47b62, type: 3}
   - {fileID: -1285027933970299755, guid: 5775a68e7c9347747bc276ab3a41f09b, type: 3}
   - {fileID: 1026151793864018484, guid: 5775a68e7c9347747bc276ab3a41f09b, type: 3}
   - {fileID: 1750363475519744411, guid: 5775a68e7c9347747bc276ab3a41f09b, type: 3}
   - {fileID: 1235410422715330291, guid: 5775a68e7c9347747bc276ab3a41f09b, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Platform
   - Gem
-  - tex_level02_hut
+  - NPC_Hut
   - Arm
   - Leg
   - Head

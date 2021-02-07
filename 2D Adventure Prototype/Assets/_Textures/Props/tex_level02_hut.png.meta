@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 6804f1e928e45b34c8555f438ba47b62
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1105800804839226002
+    second: tex_level02_hut_0
+  - first:
+      213: -7441760307412509423
+    second: NPC_Hut
+  - first:
+      213: 2837297522518250175
+    second: tex_level02_hut_2
+  - first:
+      213: -8975514914728053277
+    second: tex_level02_hut_3
+  - first:
+      213: -3768095770589277589
+    second: tex_level02_hut_4
+  - first:
+      213: 7152961613999635091
+    second: tex_level02_hut_5
+  - first:
+      213: 536918350167053932
+    second: tex_level02_hut_6
+  - first:
+      213: -1757506387912905925
+    second: tex_level02_hut_7
+  - first:
+      213: -1891290591993998493
+    second: tex_level02_hut_8
+  - first:
+      213: 938421154717775438
+    second: tex_level02_hut_0
+  - first:
+      213: 2332958559677461996
+    second: NPC_Hut
+  - first:
+      213: 4677337061576374214
+    second: tex_level02_hut_5
+  - first:
+      213: 7924469393167911438
+    second: tex_level02_hut_6
+  - first:
+      213: -4969001263911305493
+    second: tex_level02_hut_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +83,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +115,90 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Hut
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 25
+        width: 145
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce538411375506020800000000000000
+      internalID: 2332958559677461996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
