@@ -63,7 +63,14 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\__Scripts\HealhBar.cs" />
+    <Compile Include="Assets\__Scripts\KillZone.cs" />
+    <Compile Include="Assets\__Scripts\PingPongMotion.cs" />
     <Compile Include="Assets\__Scripts\PlayerController.cs" />
+    <Compile Include="Assets\__Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\__Scripts\SceneLoadTimer.cs" />
+    <Compile Include="Assets\__Scripts\TimerReset.cs" />
+    <Compile Include="Assets\__Scripts\TriggerAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />

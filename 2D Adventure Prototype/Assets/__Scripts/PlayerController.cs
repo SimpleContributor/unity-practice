@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    [SerializeField] private static float _Health = 100f;
+    [SerializeField] private static float _Health = 200f;
     private Rigidbody2D ThisBody = null;
     private bool CanJump = true;
 
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         ThisBody = GetComponent<Rigidbody2D>();
 
-        PlayerInstance = null;
+        PlayerInstance = this;
     }
 
     private bool GetGrounded()
@@ -116,6 +116,6 @@ public class PlayerController : MonoBehaviour
 
     public static void Reset()
     {
-        Health = 100f;
+        Health = 200f;
     }
 }
