@@ -20,7 +20,7 @@ public class RocketShip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-          
+        SoundEffex();
     }
 
     
@@ -41,17 +41,10 @@ public class RocketShip : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            Debug.Log("Flying");
             myRigBody.AddRelativeForce(Vector3.up * shipSpeed);
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            myAudioSource.Play();
-        } else if (Input.GetKeyUp(KeyCode.UpArrow))
-        {
-            myAudioSource.Stop();
-        }
+        
     }
 
     public void Rotate()
@@ -73,5 +66,18 @@ public class RocketShip : MonoBehaviour
         }
 
         myRigBody.freezeRotation = false;
+    }
+
+    public void SoundEffex()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            myAudioSource.Play();
+        }
+
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            myAudioSource.Stop();
+        }
     }
 }
