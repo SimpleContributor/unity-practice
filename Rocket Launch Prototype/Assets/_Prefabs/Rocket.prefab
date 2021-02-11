@@ -50,7 +50,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 56
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &5573015514020726890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,8 +63,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a99d689b3bcdd1045bcd67c8759d0fc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shipSpeed: 80
+  shipSpeed: 30
   rotSpeed: 4
+  isAlive: 1
 --- !u!82 &5919126477529436589
 AudioSource:
   m_ObjectHideFlags: 0

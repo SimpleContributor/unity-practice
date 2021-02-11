@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Danger
+  - Landing
+  - Friendly
+  - Fuel
   layers:
   - Default
   - TransparentFX

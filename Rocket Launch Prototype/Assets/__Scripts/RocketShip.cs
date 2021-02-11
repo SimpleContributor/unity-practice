@@ -6,15 +6,18 @@ public class RocketShip : MonoBehaviour
 {
     Rigidbody myRigBody;
     AudioSource myAudioSource;
+    GameController gameController;
 
     public float shipSpeed = 100f;
     public float rotSpeed = 5f;
+    public bool isAlive = true;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigBody = GetComponent<Rigidbody>();
         myAudioSource = GetComponent<AudioSource>();
+        gameController = FindObjectOfType<GameController>();
     }
 
     // Update is called once per frame
@@ -33,8 +36,11 @@ public class RocketShip : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Fly();
-        Rotate();
+        if (isAlive)
+        {
+            Fly();
+            Rotate();
+        }
     }
 
     public void Fly()
@@ -78,6 +84,44 @@ public class RocketShip : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.UpArrow))
         {
             myAudioSource.Stop();
+        }
+    }
+
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (!isAlive || gameController.invincible) return;
+
+        switch(other.gameObject.tag)
+        {
+            case ("Friendly"):
+                Debug.Log("Friendly Object");
+                break;
+
+            case ("Landing"):
+                myRigBody.isKinematic = true;
+                Debug.Log("Landing Zone");
+                gameController.NextLevel();
+                break;
+
+            case ("Fuel"):
+                Debug.Log("Fueling Up!");
+                break;
+
+            case ("Danger"):
+                isAlive = false;
+                gameController.ResetGame();
+                break;
+
+            default:
+                Debug.Log("Dangerous Object");
+                Debug.Log(other.relativeVelocity.magnitude);
+                if (other.relativeVelocity.magnitude > 10)
+                {
+                    isAlive = false;
+                    gameController.ResetGame();
+                }
+                break;
         }
     }
 }
