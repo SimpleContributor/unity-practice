@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class RocketShip : MonoBehaviour
 {
+    public float shipSpeed = 100f;
+    public float rotSpeed = 5f;
+    public AudioClip thrustSFX, deathSFX, landSFX;
+    public ParticleSystem thrustFlame, deathExplosion;
+
     Rigidbody myRigBody;
     AudioSource myAudioSource;
     GameController gameController;
 
-    public float shipSpeed = 100f;
-    public float rotSpeed = 5f;
-    public bool isAlive = true;
+    bool isAlive = true;
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +51,10 @@ public class RocketShip : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             myRigBody.AddRelativeForce(Vector3.up * shipSpeed);
+            thrustFlame.Play();
+        } else
+        {
+            thrustFlame.Stop();
         }
 
         
@@ -76,15 +83,28 @@ public class RocketShip : MonoBehaviour
 
     public void SoundEffex()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            myAudioSource.Play();
-        }
+        if (isAlive) 
+        { 
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                myAudioSource.PlayOneShot(thrustSFX, 0.3f);
+            }
 
-        if (Input.GetKeyUp(KeyCode.UpArrow))
-        {
-            myAudioSource.Stop();
+            if (Input.GetKeyUp(KeyCode.UpArrow))
+            {
+                myAudioSource.Stop();
+            }
         }
+    }
+
+    public void Die()
+    {
+        AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position);
+        deathExplosion.Play();
+        isAlive = false;
+        thrustFlame.Stop();
+        gameController.ResetGame();
+        myAudioSource.Stop();
     }
 
 
@@ -99,8 +119,9 @@ public class RocketShip : MonoBehaviour
                 break;
 
             case ("Landing"):
+                AudioSource.PlayClipAtPoint(landSFX, Camera.main.transform.position);
                 myRigBody.isKinematic = true;
-                Debug.Log("Landing Zone");
+
                 gameController.NextLevel();
                 break;
 
@@ -109,17 +130,13 @@ public class RocketShip : MonoBehaviour
                 break;
 
             case ("Danger"):
-                isAlive = false;
-                gameController.ResetGame();
+                Die();
                 break;
 
             default:
-                Debug.Log("Dangerous Object");
-                Debug.Log(other.relativeVelocity.magnitude);
                 if (other.relativeVelocity.magnitude > 10)
                 {
-                    isAlive = false;
-                    gameController.ResetGame();
+                    Die();
                 }
                 break;
         }
