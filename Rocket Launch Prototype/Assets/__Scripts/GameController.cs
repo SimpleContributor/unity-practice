@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public bool invincible = false;
+    RocketShip rocketShip;
 
 
     public void ResetGame()
@@ -47,7 +48,7 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.N))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             invincible = !invincible;
         }
@@ -56,5 +57,7 @@ public class GameController : MonoBehaviour
         {
             NextLevel();
         }
+
+        
     }
 }

@@ -4822,6 +4822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8120283747225763222}
   - component: {fileID: 8120283747225763223}
+  - component: {fileID: 3052028476494839361}
   - component: {fileID: 5573015514020726890}
   - component: {fileID: 8885572879803072270}
   m_Layer: 0
@@ -4865,6 +4866,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 56
   m_CollisionDetection: 1
+--- !u!114 &3052028476494839361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8120283747225763221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff8f618e33f3f9468bbb6802502f064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityScale: 1
 --- !u!114 &5573015514020726890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4877,11 +4891,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a99d689b3bcdd1045bcd67c8759d0fc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  hitDamage: 20
   shipSpeed: 30
   rotSpeed: 4
   thrustSFX: {fileID: 8300000, guid: 720c147584878bc4284e0b17f0061789, type: 3}
   deathSFX: {fileID: 8300000, guid: 04c3f1aee454b264689301233fa32a19, type: 3}
   landSFX: {fileID: 8300000, guid: d20d5c6c2c967854dad5611cbc500109, type: 3}
+  damageSFX: {fileID: 8300000, guid: 5d29ecdf22fb15542a5eae14724ace6e, type: 3}
   thrustFlame: {fileID: 1371050704206344324}
   deathExplosion: {fileID: 794102963245656029}
 --- !u!82 &8885572879803072270

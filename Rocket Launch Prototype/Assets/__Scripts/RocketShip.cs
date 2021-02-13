@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class RocketShip : MonoBehaviour
 {
+    public int maxHealth = 200;
+    public int hitDamage = 20;
+
     public float shipSpeed = 100f;
     public float rotSpeed = 5f;
-    public AudioClip thrustSFX, deathSFX, landSFX;
+    public AudioClip thrustSFX, deathSFX, landSFX, damageSFX;
     public ParticleSystem thrustFlame, deathExplosion;
 
     Rigidbody myRigBody;
     AudioSource myAudioSource;
     GameController gameController;
+    HealthBar myHealthBar;
 
     bool isAlive = true;
+    int currHealth;
 
     // Start is called before the first frame update
     void Start()
@@ -21,12 +26,21 @@ public class RocketShip : MonoBehaviour
         myRigBody = GetComponent<Rigidbody>();
         myAudioSource = GetComponent<AudioSource>();
         gameController = FindObjectOfType<GameController>();
+        myHealthBar = FindObjectOfType<HealthBar>();
+
+        currHealth = maxHealth;
+        myHealthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
         SoundEffex();
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            TakeDamage(100);
+        }
     }
 
     
@@ -87,13 +101,27 @@ public class RocketShip : MonoBehaviour
         { 
             if (Input.GetKeyDown(KeyCode.UpArrow))
             {
-                myAudioSource.PlayOneShot(thrustSFX, 0.3f);
+                myAudioSource.PlayOneShot(thrustSFX, 0.2f);
             }
 
             if (Input.GetKeyUp(KeyCode.UpArrow))
             {
                 myAudioSource.Stop();
             }
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currHealth -= damage;
+        myHealthBar.SetHealth(currHealth);
+
+        if (currHealth <= 0)
+        {
+            Die();
+        } else
+        {
+            AudioSource.PlayClipAtPoint(damageSFX, Camera.main.transform.position, 0.45f);
         }
     }
 
@@ -130,13 +158,13 @@ public class RocketShip : MonoBehaviour
                 break;
 
             case ("Danger"):
-                Die();
+                TakeDamage(hitDamage);
                 break;
 
             default:
                 if (other.relativeVelocity.magnitude > 10)
                 {
-                    Die();
+                    TakeDamage(hitDamage);
                 }
                 break;
         }

@@ -32,6 +32,14 @@ public class MovingDanger : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
+
+        // Allows ship to be moved along z-axis by moving obstacles. This kills the ship instantly
         other.rigidbody.constraints = RigidbodyConstraints.None;
+    }
+
+    public void Movement()
+    {
+        Vector3 tempPos = transform.position;
+
     }
 }

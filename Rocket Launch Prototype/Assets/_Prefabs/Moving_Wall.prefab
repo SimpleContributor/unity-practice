@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 618888858363227489}
   - component: {fileID: 8947797832877574646}
   - component: {fileID: 8196369168384647858}
-  - component: {fileID: 5266297938030503436}
+  - component: {fileID: 4999296579023073384}
   m_Layer: 0
   m_Name: Moving_Wall
   m_TagString: Danger
@@ -96,7 +96,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5266297938030503436
+--- !u!114 &4999296579023073384
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,7 +105,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2233752257885445336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efa4fd2b525b9c344b76a3131c8c6502, type: 3}
+  m_Script: {fileID: 11500000, guid: f1cc3a2ec964b6b4592570bf617a9f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveEnd: {x: 0, y: 0, z: 0}
+  waveFrequency: 6
+  waveWidth: 10
