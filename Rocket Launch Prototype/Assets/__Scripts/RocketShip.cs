@@ -16,6 +16,8 @@ public class RocketShip : MonoBehaviour
     AudioSource myAudioSource;
     GameController gameController;
     HealthBar myHealthBar;
+    ShakeCam shakeCam;
+    CanvasFade canvasFade;
 
     bool isAlive = true;
     int currHealth;
@@ -27,9 +29,12 @@ public class RocketShip : MonoBehaviour
         myAudioSource = GetComponent<AudioSource>();
         gameController = FindObjectOfType<GameController>();
         myHealthBar = FindObjectOfType<HealthBar>();
+        shakeCam = FindObjectOfType<ShakeCam>();
+        canvasFade = FindObjectOfType<CanvasFade>();
 
         currHealth = maxHealth;
         myHealthBar.SetMaxHealth(maxHealth);
+        canvasFade.Fade();
     }
 
     // Update is called once per frame
@@ -40,6 +45,11 @@ public class RocketShip : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             TakeDamage(100);
+        }
+
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            TakeDamage(hitDamage);
         }
     }
 
@@ -113,6 +123,7 @@ public class RocketShip : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        canvasFade.Fade();
         currHealth -= damage;
         myHealthBar.SetHealth(currHealth);
 
@@ -121,7 +132,7 @@ public class RocketShip : MonoBehaviour
             Die();
         } else
         {
-            AudioSource.PlayClipAtPoint(damageSFX, Camera.main.transform.position, 0.45f);
+            AudioSource.PlayClipAtPoint(damageSFX, Camera.main.transform.position, 0.3f);
         }
     }
 
@@ -129,6 +140,7 @@ public class RocketShip : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position);
         deathExplosion.Play();
+        shakeCam.ShakeCamera();
         isAlive = false;
         thrustFlame.Stop();
         gameController.ResetGame();

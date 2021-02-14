@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public bool invincible = false;
-    RocketShip rocketShip;
 
 
     public void ResetGame()

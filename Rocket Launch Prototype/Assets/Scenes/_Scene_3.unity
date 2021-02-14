@@ -2284,7 +2284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.7
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2292,19 +2292,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_RootOrder
@@ -2312,15 +2312,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4769111364165570615, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4999296579023073384, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
+      propertyPath: axis
+      value: y
       objectReference: {fileID: 0}
     - target: {fileID: 5266297938030503436, guid: 3e16623a856d7324b9b3b5775a78687d, type: 3}
       propertyPath: moveEnd.z

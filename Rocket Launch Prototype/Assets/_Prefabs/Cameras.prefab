@@ -32,6 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &868175557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254550334014610960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc5c32c94d30b945bda47461be48972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  intensity: 5
 --- !u!114 &281002108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,6 +72,23 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
+--- !u!114 &4254550334134362357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254550334058066122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 0
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &4254550333802552808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +205,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1968047840770226250, guid: 4859977f422354e4b870d58cab4b7dcb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4859977f422354e4b870d58cab4b7dcb, type: 3}
+--- !u!1 &4254550334014610960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1968047840859805333, guid: 4859977f422354e4b870d58cab4b7dcb, type: 3}
+  m_PrefabInstance: {fileID: 2325225102454130821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4254550334014610967 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1968047840859805330, guid: 4859977f422354e4b870d58cab4b7dcb, type: 3}
