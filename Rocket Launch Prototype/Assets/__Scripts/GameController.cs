@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     public bool invincible = false;
 
+    public GameMenu gameMenu;
 
     public void ResetGame()
     {
@@ -57,6 +58,16 @@ public class GameController : MonoBehaviour
             NextLevel();
         }
 
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (Time.timeScale == 1)
+            {
+                gameMenu.PauseGame();
+            }
+            else
+            {
+                gameMenu.ResumeGame();
+            }
+        }
     }
 }

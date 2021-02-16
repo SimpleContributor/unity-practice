@@ -12,12 +12,14 @@ public class RocketShip : MonoBehaviour
     public AudioClip thrustSFX, deathSFX, landSFX, damageSFX;
     public ParticleSystem thrustFlame, deathExplosion;
 
+
     Rigidbody myRigBody;
     AudioSource myAudioSource;
     GameController gameController;
     HealthBar myHealthBar;
     ShakeCam shakeCam;
     CanvasFade canvasFade;
+
 
     bool isAlive = true;
     int currHealth;
@@ -31,6 +33,7 @@ public class RocketShip : MonoBehaviour
         myHealthBar = FindObjectOfType<HealthBar>();
         shakeCam = FindObjectOfType<ShakeCam>();
         canvasFade = FindObjectOfType<CanvasFade>();
+
 
         currHealth = maxHealth;
         myHealthBar.SetMaxHealth(maxHealth);
@@ -51,6 +54,8 @@ public class RocketShip : MonoBehaviour
         {
             TakeDamage(hitDamage);
         }
+
+        
     }
 
     

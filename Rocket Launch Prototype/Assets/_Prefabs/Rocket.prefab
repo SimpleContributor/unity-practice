@@ -4901,6 +4901,7 @@ MonoBehaviour:
   damageSFX: {fileID: 8300000, guid: 5d29ecdf22fb15542a5eae14724ace6e, type: 3}
   thrustFlame: {fileID: 1371050704206344324}
   deathExplosion: {fileID: 794102963245656029}
+  gameMenu: {fileID: 0}
 --- !u!82 &8885572879803072270
 AudioSource:
   m_ObjectHideFlags: 0
