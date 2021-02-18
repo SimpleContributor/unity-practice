@@ -6,11 +6,15 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
+    #region Variables
+    [Header("UI Objects")]
     public Slider volumeSlider;
 
     GameController gameController;
+    #endregion
 
 
+    #region Builtin Methods
     private void Start()
     {
         gameController = GetComponent<GameController>();
@@ -21,7 +25,10 @@ public class MainMenu : MonoBehaviour
 
         PlayerPrefs.SetFloat("SliderVolumeLevel", volumeSlider.value);
     }
+    #endregion
 
+
+    #region Custom Methods
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -33,4 +40,5 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quit Game!");
         Application.Quit();
     }
+    #endregion
 }

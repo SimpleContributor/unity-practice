@@ -6,16 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
+    #region Variables
+    [Header("UI Objects")]
     public Slider gameMenuSlider;
+
+    [Header("Game Objects")]
     public GameObject gameMenu;
     public GameObject healthUI;
+    #endregion
 
-    bool isPaused;
 
+    #region Builtin Methods
     // Start is called before the first frame update
     void Start()
     {
-        isPaused = false;
         gameMenuSlider.value = PlayerPrefs.GetFloat("SliderVolumeLevel", gameMenuSlider.value);
         AudioListener.volume = gameMenuSlider.value;
         //gameMenuSlider.value = optionsMenu.volumeSlider.value;
@@ -32,11 +36,14 @@ public class GameMenu : MonoBehaviour
 
         AudioListener.volume = gameMenuSlider.value;
     }
+    #endregion
 
+
+
+    #region Custom Methods
     public void PauseGame()
     {
         Time.timeScale = 0;
-        isPaused = true;
         gameMenu.SetActive(true);
         healthUI.SetActive(false);
     }
@@ -44,7 +51,6 @@ public class GameMenu : MonoBehaviour
     public void ResumeGame()
     {
         Time.timeScale = 1;
-        isPaused = false;
         gameMenu.SetActive(false);
         healthUI.SetActive(true);
     }
@@ -53,4 +59,5 @@ public class GameMenu : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    #endregion
 }

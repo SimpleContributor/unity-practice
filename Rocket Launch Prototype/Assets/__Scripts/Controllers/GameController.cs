@@ -5,10 +5,46 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+    #region Variables
+    [Header("GC Cheats")]
     public bool invincible = false;
 
+    [Header("GC Objects")]
     public GameMenu gameMenu;
+    #endregion
 
+
+
+    #region Builtin Methods
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            invincible = !invincible;
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            NextLevel();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (Time.timeScale == 1)
+            {
+                gameMenu.PauseGame();
+            }
+            else
+            {
+                gameMenu.ResumeGame();
+            }
+        }
+    }
+    #endregion
+
+
+
+    #region Custom Methods
     public void ResetGame()
     {
         StartCoroutine(LoadSameLevel());
@@ -18,7 +54,11 @@ public class GameController : MonoBehaviour
     {
         StartCoroutine(LoadNextLevel());
     }
+    #endregion
 
+
+
+    #region Coroutines
     private IEnumerator LoadSameLevel()
     {
         yield return new WaitForSeconds(2f);
@@ -44,30 +84,5 @@ public class GameController : MonoBehaviour
 
         SceneManager.LoadScene(nextSceneIndex);
     }
-
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            invincible = !invincible;
-        }
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            NextLevel();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (Time.timeScale == 1)
-            {
-                gameMenu.PauseGame();
-            }
-            else
-            {
-                gameMenu.ResumeGame();
-            }
-        }
-    }
+    #endregion 
 }

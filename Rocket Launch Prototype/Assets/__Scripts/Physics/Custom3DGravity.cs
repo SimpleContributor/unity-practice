@@ -4,20 +4,31 @@ using UnityEngine;
 
 public class Custom3DGravity : MonoBehaviour
 {
+    #region Variables
+    [Header("Gravity Properties")]
     public float gravityScale = 1.0f;
+    // static var can only be altered directly through Unity Inspector
     public static float globalGravity = -9.81f;
 
     Rigidbody m_rb;
+    #endregion
 
-    void OnEnable()
-    {
-        m_rb = GetComponent<Rigidbody>();
-        m_rb.useGravity = false;
-    }
 
+    #region Builtin Methods
     void FixedUpdate()
     {
         Vector3 gravity = globalGravity * gravityScale * Vector3.up;
         m_rb.AddForce(gravity, ForceMode.Acceleration);
     }
+    #endregion
+
+
+
+    #region Custom Methods
+    void OnEnable()
+    {
+        m_rb = GetComponent<Rigidbody>();
+        m_rb.useGravity = false;
+    }
+    #endregion
 }

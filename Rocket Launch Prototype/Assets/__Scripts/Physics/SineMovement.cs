@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class SineMovement : MonoBehaviour
 {
+    #region Variables
+    [Header("Sine Wave Properties")]
     public float waveFrequency = 6.0f;
     public float waveWidth = 10.0f;
 
+    [Header("Sine Wave Axis")]
     public string axis;
 
     private float x0, y0, z0;
+    #endregion
 
+
+
+    #region Builtin Methods
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +31,11 @@ public class SineMovement : MonoBehaviour
     {
         Movement();
     }
+    #endregion
 
+
+
+    #region Custom Methods
     public void Movement()
     {
         Vector3 tempPos = transform.position;
@@ -46,4 +57,5 @@ public class SineMovement : MonoBehaviour
             transform.position = tempPos;
         }
     }
+    #endregion
 }

@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class CanvasFade : MonoBehaviour
 {
+    #region Variables
+    [Header("UI Properties")]
     public float fadeDuration = 1.5f;
+    #endregion
 
+
+    #region Custom Methods
     public void Fade()
     {
         CanvasGroup healthUI = GetComponent<CanvasGroup>();
 
         StartCoroutine(DoFade(healthUI));
     }
+    #endregion
 
+
+    #region Coroutines
     IEnumerator DoFade(CanvasGroup healthUI)
     {
         float counter = 0f;
@@ -25,4 +33,5 @@ public class CanvasFade : MonoBehaviour
             yield return null;
         }
     }
+    #endregion
 }

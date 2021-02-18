@@ -5,8 +5,13 @@ using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
+    #region Variables
+    [Header("UI Objects")]
     public Slider volumeSlider;
+    #endregion
 
+
+    #region Builtin Methods
     // Start is called before the first frame update
     void Start()
     {
@@ -28,4 +33,5 @@ public class OptionsMenu : MonoBehaviour
             PlayerPrefs.SetFloat("SliderVolumeLevel", volumeSlider.value);
         }
     }
+    #endregion
 }

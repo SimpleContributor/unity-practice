@@ -2374,6 +2374,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 4675644396679892497, guid: 6a96c75ee06a00c4baee8845dc711f36, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4675644396679892497, guid: 6a96c75ee06a00c4baee8845dc711f36, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a96c75ee06a00c4baee8845dc711f36, type: 3}
 --- !u!1 &4675644396514256279 stripped
@@ -2388,6 +2396,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5462409621387030574, guid: 96bf2f4b4f5893b4bbb9324e5ff8966c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462409621387030574, guid: 96bf2f4b4f5893b4bbb9324e5ff8966c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462409621387030574, guid: 96bf2f4b4f5893b4bbb9324e5ff8966c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462409621901456257, guid: 96bf2f4b4f5893b4bbb9324e5ff8966c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462409621901456257, guid: 96bf2f4b4f5893b4bbb9324e5ff8966c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5462409623313206608, guid: 96bf2f4b4f5893b4bbb9324e5ff8966c, type: 3}
       propertyPath: healthUI
       value: 

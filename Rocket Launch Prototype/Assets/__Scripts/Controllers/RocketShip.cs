@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class RocketShip : MonoBehaviour
 {
+    #region Variables
+    [Header("Health Properties")]
     public int maxHealth = 200;
     public int hitDamage = 20;
 
+    [Header("Physics Properties")]
     public float shipSpeed = 100f;
     public float rotSpeed = 5f;
-    public AudioClip thrustSFX, deathSFX, landSFX, damageSFX;
-    public ParticleSystem thrustFlame, deathExplosion;
+
+    [Header("Sound Effex")]
+    public AudioClip thrustSFX;
+    public AudioClip deathSFX;
+    public AudioClip landSFX;
+    public AudioClip damageSFX;
+
+    [Header("Particle Systems")]
+    public ParticleSystem thrustFlame;
+    public ParticleSystem deathExplosion;
 
 
     Rigidbody myRigBody;
@@ -23,7 +34,11 @@ public class RocketShip : MonoBehaviour
 
     bool isAlive = true;
     int currHealth;
+    #endregion
 
+
+
+    #region Builtin Methods
     // Start is called before the first frame update
     void Start()
     {
@@ -54,14 +69,14 @@ public class RocketShip : MonoBehaviour
         {
             TakeDamage(hitDamage);
         }
-
-        
     }
 
     
     private void LateUpdate()
     {
-        // Stops the ship from continuing to rotate when it hits or is hit my another object
+        // Stops the ship from continuing to rotate when it hits or is hit by another object
+        // i.e. You hit an edge and try to stop, the ship will never stop. It will mantain
+        // the opposite force (Newton's Third Law)
         transform.localEulerAngles = new Vector3(0, 0, transform.localEulerAngles.z);
     }
 
@@ -74,7 +89,11 @@ public class RocketShip : MonoBehaviour
             Rotate();
         }
     }
+    #endregion
 
+
+
+    #region Custom Methods
     public void Fly()
     {
         if (Input.GetKey(KeyCode.UpArrow))
@@ -151,8 +170,11 @@ public class RocketShip : MonoBehaviour
         gameController.ResetGame();
         myAudioSource.Stop();
     }
+    #endregion
 
 
+
+    #region Collisions
     private void OnCollisionEnter(Collision other)
     {
         if (!isAlive || gameController.invincible) return;
@@ -186,4 +208,5 @@ public class RocketShip : MonoBehaviour
                 break;
         }
     }
+    #endregion
 }

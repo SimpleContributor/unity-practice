@@ -5,11 +5,16 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
+    #region Variables
+    [Header("UI Properties")]
     public Slider healthSlider;
     public Gradient gradient;
-
     public Image fill;
-    
+    #endregion
+
+
+
+    #region Custom Methods
     public void SetHealth(int health)
     {
         healthSlider.value = health;
@@ -24,4 +29,5 @@ public class HealthBar : MonoBehaviour
 
         fill.color = gradient.Evaluate(1f);
     }
+    #endregion
 }
