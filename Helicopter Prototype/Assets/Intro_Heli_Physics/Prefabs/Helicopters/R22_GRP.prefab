@@ -5793,6 +5793,10 @@ GameObject:
   m_Component:
   - component: {fileID: 9006624742025025193}
   - component: {fileID: 1372455210}
+  - component: {fileID: 8776066833254937527}
+  - component: {fileID: 9006624740662269830}
+  - component: {fileID: 9006624740662269829}
+  - component: {fileID: 9174386566028379652}
   m_Layer: 0
   m_Name: R22_GRP
   m_TagString: Untagged
@@ -5834,6 +5838,61 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8776066833254937527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006624742025025194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b472afd0a03bf4340b9c854641609719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputType: 0
+  keyInput: {fileID: 9006624740662269830}
+  xboxInput: {fileID: 9006624740662269829}
+--- !u!114 &9006624740662269830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006624742025025194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbcba7019379b1e4da077b9b574a6a22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9006624740662269829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006624742025025194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc46b4f973e71eb47b456a2ac9381efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9174386566028379652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9006624742025025194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a963a122ab05c0e4fa1d8c8a6bd15d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightInLbs: 10
+  cog: {fileID: 9006624740613327662}
+  lbsToKg: 0.454
+  kgToLbs: 2.205
 --- !u!1 &9110922372090406128
 GameObject:
   m_ObjectHideFlags: 0
