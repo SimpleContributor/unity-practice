@@ -5,6 +5,10 @@ using UnityEngine;
 
 namespace MyCode
 {
+    // this => Heli_Controller
+    // this => Forces
+    // this => Torque
+
     [RequireComponent(typeof(Rigidbody))]
     // Base_RBController is meant to be the main
     public class Base_RBController : MonoBehaviour

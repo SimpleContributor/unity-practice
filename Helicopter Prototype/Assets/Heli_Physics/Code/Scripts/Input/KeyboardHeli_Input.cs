@@ -13,6 +13,10 @@ namespace MyCode
         [Header("Heli Keyboard Inputs")]
         #endregion
 
+        // Throttle Input (read only)
+        // Collective Input (read only)
+        // Cyclic Input (read only)
+        // Pedal Input (read only)
         #region Properties
         protected float throttleInput = 0f;
         public float ThrottleInput
@@ -39,10 +43,13 @@ namespace MyCode
         }
         #endregion
 
-        #region Builtin Methods
-        #endregion
 
-
+        // HandleInputs()
+        // HandleThrottle()
+        // HandleCollective()
+        // HandleCyclic()
+        // HandlePedal()
+        // ClampInputs()
         #region Custom Methods
         protected override void HandleInputs()
         {
