@@ -31,6 +31,9 @@ namespace MyCode
             get { return throttleInput; }
         }
 
+        float stickyThrottle;
+        public float StickyThrottle => stickyThrottle;
+
         float collectiveInput;
         public float CollectiveInput
         {
@@ -70,14 +73,16 @@ namespace MyCode
             switch(inputType)
             {
                 case InputType.Keyboard:
-                    throttleInput = keyInput.ThrottleInput;
+                    throttleInput = keyInput.RawThrottleInput;
+                    stickyThrottle = keyInput.StickyThrottle;
                     collectiveInput = keyInput.CollectiveInput;
                     cyclicInput = keyInput.CyclicInput;
                     pedalInput = keyInput.PedalInput;
                     break;
 
                 case InputType.Xbox:
-                    throttleInput = xboxInput.ThrottleInput;
+                    throttleInput = xboxInput.RawThrottleInput;
+                    stickyThrottle = xboxInput.StickyThrottle;
                     collectiveInput = xboxInput.CollectiveInput;
                     cyclicInput = xboxInput.CyclicInput;
                     pedalInput = xboxInput.PedalInput;

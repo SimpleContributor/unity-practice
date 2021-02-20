@@ -42,7 +42,7 @@ namespace MyCode
             // Calculate RPM's
             float wantedRPM = throttleInput * maxRPM;
             currentRPM = Mathf.Lerp(currentRPM, wantedRPM, Time.deltaTime);
-            Debug.Log(currentRPM);
+            // Debug.Log(currentRPM);
         }
     }
 }

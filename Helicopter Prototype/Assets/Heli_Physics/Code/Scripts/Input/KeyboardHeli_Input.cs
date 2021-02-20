@@ -19,10 +19,13 @@ namespace MyCode
         // Pedal Input (read only)
         #region Properties
         protected float throttleInput = 0f;
-        public float ThrottleInput
+        public float RawThrottleInput
         {
             get { return throttleInput; }
         }
+
+        protected float stickyThrottle = 0f;
+        public float StickyThrottle => stickyThrottle; // => stickyThrottle is the same as { get { return stickyThrottle; } }
 
         protected float collectiveInput = 0f;
         public float CollectiveInput
@@ -50,18 +53,21 @@ namespace MyCode
         // HandleCyclic()
         // HandlePedal()
         // ClampInputs()
+        // HandleStickyThrottle()
         #region Custom Methods
         protected override void HandleInputs()
         {
             base.HandleInputs();
 
+            // Input Methods
             HandleThrottle();
             HandleCollective();
             HandleCyclic();
             HandlePedal();
 
-            // Clamp all of the input values between -1f and 1f after the values are calculated
+            // Utility Methods
             ClampInputs();
+            HandleStickyThrottle();
         }
 
         protected virtual void HandleThrottle()
@@ -90,6 +96,13 @@ namespace MyCode
             collectiveInput = Mathf.Clamp(collectiveInput, -1f, 1f);
             cyclicInput = Vector2.ClampMagnitude(cyclicInput, 1f);
             pedalInput = Mathf.Clamp(pedalInput, -1f, 1f);
+        }
+
+        protected void HandleStickyThrottle()
+        {
+            stickyThrottle += RawThrottleInput * Time.deltaTime;
+            stickyThrottle = Mathf.Clamp01(stickyThrottle);
+            // Debug.Log(stickyThrottle);
         }
         #endregion
     }
