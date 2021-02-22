@@ -9,13 +9,13 @@ namespace MyCode
     public class Rotor_Controller : MonoBehaviour
     {
         public Cyclic_Rotation cyclicRotation;
-
+        public float maxDegPerSec = 320f;
         private List<IHeli_Rotor> rotors;
 
 
         private void Start()
         {
-            rotors = GetComponentsInChildren<IHeli_Rotor>().ToList<IHeli_Rotor>();
+            rotors = GetComponentsInChildren<IHeli_Rotor>().ToList();
         }
 
 
@@ -23,7 +23,8 @@ namespace MyCode
         {
             // Debug.Log("Updating Rotor Controller");
             // degPerSec calculation
-            float degPerSec = ((currentRPMs * 360) / 60) * Time.deltaTime;
+            float degPerSec = ((currentRPMs * 360f) / 60f) * Time.deltaTime;
+            degPerSec = Mathf.Clamp(degPerSec, 0f, maxDegPerSec);
 
             // Update rotors
             if (rotors.Count > 0)

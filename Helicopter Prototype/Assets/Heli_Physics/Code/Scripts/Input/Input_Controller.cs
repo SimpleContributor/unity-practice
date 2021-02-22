@@ -40,6 +40,9 @@ namespace MyCode
             get { return collectiveInput; }
         }
 
+        float stickyCollectiveInput;
+        public float StickyCollectiveInput => stickyCollectiveInput;
+
         Vector2 cyclicInput;
         public Vector2 CyclicInput
         {
@@ -76,6 +79,7 @@ namespace MyCode
                     throttleInput = keyInput.RawThrottleInput;
                     stickyThrottle = keyInput.StickyThrottle;
                     collectiveInput = keyInput.CollectiveInput;
+                    stickyCollectiveInput = keyInput.StickyCollectiveInput;
                     cyclicInput = keyInput.CyclicInput;
                     pedalInput = keyInput.PedalInput;
                     break;
@@ -84,6 +88,7 @@ namespace MyCode
                     throttleInput = xboxInput.RawThrottleInput;
                     stickyThrottle = xboxInput.StickyThrottle;
                     collectiveInput = xboxInput.CollectiveInput;
+                    stickyCollectiveInput = xboxInput.StickyCollectiveInput;
                     cyclicInput = xboxInput.CyclicInput;
                     pedalInput = xboxInput.PedalInput;
                     break;

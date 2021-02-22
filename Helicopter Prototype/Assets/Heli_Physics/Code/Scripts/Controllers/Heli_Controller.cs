@@ -19,7 +19,16 @@ namespace MyCode
         
 
         Input_Controller input;
+        Heli_Characteristics characteristics;
         #endregion
+
+
+        public override void Start()
+        {
+            base.Start();
+
+            characteristics = GetComponent<Heli_Characteristics>();
+        }
 
 
         #region Custom Methods
@@ -56,7 +65,10 @@ namespace MyCode
 
         protected virtual void HandleCharacteristics()
         {
-
+            if (characteristics)
+            {
+                characteristics.UpdateCharacteristics(rb, input);
+            }
         }
         #endregion
     }
