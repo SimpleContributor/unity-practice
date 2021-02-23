@@ -8,7 +8,6 @@ namespace MyCode
 {
     public class Rotor_Controller : MonoBehaviour
     {
-        public Cyclic_Rotation cyclicRotation;
         public float maxDegPerSec = 320f;
         private List<IHeli_Rotor> rotors;
 
@@ -35,8 +34,6 @@ namespace MyCode
                 }
             }
 
-            cyclicRotation.UpdateCyclic(input);
         }
     }
-
 }

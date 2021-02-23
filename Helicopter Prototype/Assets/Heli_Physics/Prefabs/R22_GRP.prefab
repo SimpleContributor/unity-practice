@@ -171,7 +171,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1521695598}
-  - component: {fileID: 3561254532462916131}
   m_Layer: 0
   m_Name: Top_Rotor
   m_TagString: Untagged
@@ -194,20 +193,6 @@ Transform:
   m_Father: {fileID: 327626885004714341}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3561254532462916131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1521695597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81051518d26962f488dcb6a717fa94eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cyclicPitch: 20
-  cyclicRoll: -10
 --- !u!1 &613724836228732279
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,7 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b472afd0a03bf4340b9c854641609719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputType: 0
+  inputType: 1
 --- !u!114 &613724836660610254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,7 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a963a122ab05c0e4fa1d8c8a6bd15d13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weightInLbs: 10
+  weightInLbs: 1200
   cog: {fileID: 613724836595128422}
   lbsToKg: 0.454
   kgToLbs: 2.205
@@ -429,8 +414,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d094c4d3b3b64d84baa254244ba0f6f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxLiftForce: 10
+  maxLiftForce: 5
   mainRotor: {fileID: 10831990120483093}
+  tailForce: 2
+  cyclicTorque: 2
+  cyclicForceMult: 500
+  autoLevelForce: 3
 --- !u!1 &613724837630624634
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1d6fa28fff206140b481e6fece3cc75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cyclicRotation: {fileID: 3561254532462916131}
+  cyclicRotation: {fileID: 3561254532462916131, guid: 0c084d948000db442bf0ad0a6b493292, type: 3}
   maxDegPerSec: 300
 --- !u!1 &2202519252779204609
 GameObject:

@@ -14,9 +14,6 @@ namespace MyCode
         {
             transform.localRotation = Quaternion.Euler(input.CyclicInput.y * cyclicPitch, 0f, input.CyclicInput.x * cyclicRoll);
 
-            // transform.Rotate(Vector3.right, input.CyclicInput.y * cyclicPitch);
-            // transform.Rotate(Vector3.forward, input.CyclicInput.x * cyclicRoll);
-
         }
     }
 
