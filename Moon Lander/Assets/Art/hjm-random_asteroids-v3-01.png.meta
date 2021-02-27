@@ -1,0 +1,3610 @@
+fileFormatVersion: 2
+guid: 4f5c38b8a9cf8f84a85ce65df4e7d516
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3367861488849255426
+    second: hjm-random_asteroids-v3-01_0
+  - first:
+      213: -1953871306711115194
+    second: hjm-random_asteroids-v3-01_1
+  - first:
+      213: 6665197953093858061
+    second: hjm-random_asteroids-v3-01_2
+  - first:
+      213: -6268194785235679894
+    second: hjm-random_asteroids-v3-01_3
+  - first:
+      213: -4010793939138652716
+    second: hjm-random_asteroids-v3-01_4
+  - first:
+      213: 161516552795569974
+    second: hjm-random_asteroids-v3-01_5
+  - first:
+      213: 1633665988618552540
+    second: hjm-random_asteroids-v3-01_6
+  - first:
+      213: 1137761330619168979
+    second: hjm-random_asteroids-v3-01_7
+  - first:
+      213: 771798427751045496
+    second: hjm-random_asteroids-v3-01_8
+  - first:
+      213: -800718463064808870
+    second: hjm-random_asteroids-v3-01_9
+  - first:
+      213: -8401016946195759515
+    second: hjm-random_asteroids-v3-01_10
+  - first:
+      213: -8310707640368165040
+    second: hjm-random_asteroids-v3-01_11
+  - first:
+      213: -3795808723012202125
+    second: hjm-random_asteroids-v3-01_12
+  - first:
+      213: -2133130102527104062
+    second: hjm-random_asteroids-v3-01_13
+  - first:
+      213: 1579452452729090394
+    second: hjm-random_asteroids-v3-01_14
+  - first:
+      213: -6827343518036906550
+    second: hjm-random_asteroids-v3-01_15
+  - first:
+      213: -4747806626316754476
+    second: hjm-random_asteroids-v3-01_16
+  - first:
+      213: 8082688669266052697
+    second: hjm-random_asteroids-v3-01_17
+  - first:
+      213: -1425316297599840442
+    second: hjm-random_asteroids-v3-01_18
+  - first:
+      213: 1279654492265675096
+    second: hjm-random_asteroids-v3-01_19
+  - first:
+      213: -4636456782451232558
+    second: hjm-random_asteroids-v3-01_20
+  - first:
+      213: -5300093544173532526
+    second: hjm-random_asteroids-v3-01_21
+  - first:
+      213: 2091314027342783621
+    second: hjm-random_asteroids-v3-01_22
+  - first:
+      213: 4581998984090853855
+    second: hjm-random_asteroids-v3-01_23
+  - first:
+      213: -2058449436617292914
+    second: hjm-random_asteroids-v3-01_24
+  - first:
+      213: 1147633484953518056
+    second: hjm-random_asteroids-v3-01_25
+  - first:
+      213: -6965768353917203915
+    second: hjm-random_asteroids-v3-01_26
+  - first:
+      213: -4739655942098451645
+    second: hjm-random_asteroids-v3-01_27
+  - first:
+      213: 9103546023848806899
+    second: hjm-random_asteroids-v3-01_28
+  - first:
+      213: 2805457183620609679
+    second: hjm-random_asteroids-v3-01_29
+  - first:
+      213: -8609929617491440678
+    second: hjm-random_asteroids-v3-01_30
+  - first:
+      213: -4846323912944591969
+    second: hjm-random_asteroids-v3-01_31
+  - first:
+      213: -2414540506847020809
+    second: hjm-random_asteroids-v3-01_32
+  - first:
+      213: 5159793235706752364
+    second: hjm-random_asteroids-v3-01_33
+  - first:
+      213: 120116957552667916
+    second: hjm-random_asteroids-v3-01_34
+  - first:
+      213: -2586117985993848296
+    second: hjm-random_asteroids-v3-01_35
+  - first:
+      213: 2079652794977974709
+    second: hjm-random_asteroids-v3-01_36
+  - first:
+      213: 501981194718610216
+    second: hjm-random_asteroids-v3-01_37
+  - first:
+      213: 3124245548252196282
+    second: hjm-random_asteroids-v3-01_38
+  - first:
+      213: -6712245441726128406
+    second: hjm-random_asteroids-v3-01_39
+  - first:
+      213: 7238552655961026905
+    second: hjm-random_asteroids-v3-01_40
+  - first:
+      213: 3294002406353446279
+    second: hjm-random_asteroids-v3-01_41
+  - first:
+      213: 7211488004518510071
+    second: hjm-random_asteroids-v3-01_42
+  - first:
+      213: 4211892940357049166
+    second: hjm-random_asteroids-v3-01_43
+  - first:
+      213: -3129273117622687689
+    second: hjm-random_asteroids-v3-01_44
+  - first:
+      213: 4842500198679121829
+    second: hjm-random_asteroids-v3-01_45
+  - first:
+      213: 8344253094218013169
+    second: hjm-random_asteroids-v3-01_46
+  - first:
+      213: 7425598253819544633
+    second: hjm-random_asteroids-v3-01_47
+  - first:
+      213: 5984401150829278745
+    second: hjm-random_asteroids-v3-01_48
+  - first:
+      213: -1496742643344747043
+    second: hjm-random_asteroids-v3-01_49
+  - first:
+      213: 2623809666616314095
+    second: hjm-random_asteroids-v3-01_50
+  - first:
+      213: 2207974130682971
+    second: hjm-random_asteroids-v3-01_51
+  - first:
+      213: 3576897777421306544
+    second: hjm-random_asteroids-v3-01_52
+  - first:
+      213: -7245500841897125889
+    second: hjm-random_asteroids-v3-01_53
+  - first:
+      213: -70796278172557221
+    second: hjm-random_asteroids-v3-01_54
+  - first:
+      213: 1139575518769323953
+    second: hjm-random_asteroids-v3-01_55
+  - first:
+      213: 8130663390547427390
+    second: hjm-random_asteroids-v3-01_56
+  - first:
+      213: 5924492423159008563
+    second: hjm-random_asteroids-v3-01_57
+  - first:
+      213: 1179833123009486153
+    second: hjm-random_asteroids-v3-01_58
+  - first:
+      213: -5902297704592116111
+    second: hjm-random_asteroids-v3-01_59
+  - first:
+      213: 7624765732060193410
+    second: hjm-random_asteroids-v3-01_60
+  - first:
+      213: 706262622142423059
+    second: hjm-random_asteroids-v3-01_61
+  - first:
+      213: 5080798933014194419
+    second: hjm-random_asteroids-v3-01_62
+  - first:
+      213: -4426511501462882905
+    second: hjm-random_asteroids-v3-01_63
+  - first:
+      213: -8806665093430092905
+    second: hjm-random_asteroids-v3-01_64
+  - first:
+      213: 925914363429636879
+    second: hjm-random_asteroids-v3-01_65
+  - first:
+      213: -708935192428402134
+    second: hjm-random_asteroids-v3-01_66
+  - first:
+      213: -2584215245304006660
+    second: hjm-random_asteroids-v3-01_67
+  - first:
+      213: -1433204485882577541
+    second: hjm-random_asteroids-v3-01_68
+  - first:
+      213: -6345948557782658203
+    second: hjm-random_asteroids-v3-01_69
+  - first:
+      213: -6234978585330364466
+    second: hjm-random_asteroids-v3-01_70
+  - first:
+      213: -3950971319873432927
+    second: hjm-random_asteroids-v3-01_71
+  - first:
+      213: 4843191729499369767
+    second: hjm-random_asteroids-v3-01_72
+  - first:
+      213: 6599607976663747818
+    second: hjm-random_asteroids-v3-01_73
+  - first:
+      213: -9123802351806098103
+    second: hjm-random_asteroids-v3-01_74
+  - first:
+      213: 6223255478087393250
+    second: hjm-random_asteroids-v3-01_75
+  - first:
+      213: 5759189804220865084
+    second: hjm-random_asteroids-v3-01_76
+  - first:
+      213: -2402618304251911546
+    second: hjm-random_asteroids-v3-01_77
+  - first:
+      213: -2164129731100055140
+    second: hjm-random_asteroids-v3-01_78
+  - first:
+      213: -8260719891391991258
+    second: hjm-random_asteroids-v3-01_79
+  - first:
+      213: -4680080349844174867
+    second: hjm-random_asteroids-v3-01_80
+  - first:
+      213: 5566202024713097596
+    second: hjm-random_asteroids-v3-01_81
+  - first:
+      213: -4725599838999203353
+    second: hjm-random_asteroids-v3-01_82
+  - first:
+      213: -6914365615215626936
+    second: hjm-random_asteroids-v3-01_83
+  - first:
+      213: -1338966279661910399
+    second: hjm-random_asteroids-v3-01_84
+  - first:
+      213: -232582131383812317
+    second: hjm-random_asteroids-v3-01_85
+  - first:
+      213: 6814755325741457216
+    second: hjm-random_asteroids-v3-01_86
+  - first:
+      213: -8776991463666257268
+    second: hjm-random_asteroids-v3-01_87
+  - first:
+      213: -251978416565798282
+    second: hjm-random_asteroids-v3-01_88
+  - first:
+      213: -1566745698181661998
+    second: hjm-random_asteroids-v3-01_89
+  - first:
+      213: 7152478590731979223
+    second: hjm-random_asteroids-v3-01_90
+  - first:
+      213: -6753395706140487311
+    second: hjm-random_asteroids-v3-01_91
+  - first:
+      213: -323080975655850377
+    second: hjm-random_asteroids-v3-01_92
+  - first:
+      213: -2476108115468602176
+    second: hjm-random_asteroids-v3-01_93
+  - first:
+      213: 5567581406679050266
+    second: hjm-random_asteroids-v3-01_94
+  - first:
+      213: -7734882474446692601
+    second: hjm-random_asteroids-v3-01_95
+  - first:
+      213: 398828111532314911
+    second: hjm-random_asteroids-v3-01_96
+  - first:
+      213: 7341719091916393810
+    second: hjm-random_asteroids-v3-01_97
+  - first:
+      213: 6859912940004132800
+    second: hjm-random_asteroids-v3-01_98
+  - first:
+      213: -3890358541561488284
+    second: hjm-random_asteroids-v3-01_99
+  - first:
+      213: -8133812102725352594
+    second: hjm-random_asteroids-v3-01_100
+  - first:
+      213: 7807292286714023788
+    second: hjm-random_asteroids-v3-01_101
+  - first:
+      213: -2123654546472396301
+    second: hjm-random_asteroids-v3-01_102
+  - first:
+      213: 1561618810525187471
+    second: hjm-random_asteroids-v3-01_103
+  - first:
+      213: -65417812069050395
+    second: hjm-random_asteroids-v3-01_104
+  - first:
+      213: 1415092244667375305
+    second: hjm-random_asteroids-v3-01_105
+  - first:
+      213: -5002741738973124758
+    second: hjm-random_asteroids-v3-01_106
+  - first:
+      213: -3637657246189640275
+    second: hjm-random_asteroids-v3-01_107
+  - first:
+      213: 3589315851842182513
+    second: hjm-random_asteroids-v3-01_108
+  - first:
+      213: -804625328600773267
+    second: hjm-random_asteroids-v3-01_109
+  - first:
+      213: -4729688090352550075
+    second: hjm-random_asteroids-v3-01_110
+  - first:
+      213: -9097493203131038759
+    second: hjm-random_asteroids-v3-01_111
+  - first:
+      213: 5219506293402714745
+    second: hjm-random_asteroids-v3-01_112
+  - first:
+      213: 9204385774201662827
+    second: hjm-random_asteroids-v3-01_113
+  - first:
+      213: -6312390771212758756
+    second: hjm-random_asteroids-v3-01_114
+  - first:
+      213: 8389659301020393152
+    second: hjm-random_asteroids-v3-01_115
+  - first:
+      213: 4249995931014162878
+    second: hjm-random_asteroids-v3-01_116
+  - first:
+      213: 4708260766670144565
+    second: hjm-random_asteroids-v3-01_117
+  - first:
+      213: -4168064132119971285
+    second: hjm-random_asteroids-v3-01_118
+  - first:
+      213: -5688976505187713655
+    second: hjm-random_asteroids-v3-01_119
+  - first:
+      213: 6328884482162170112
+    second: hjm-random_asteroids-v3-01_120
+  - first:
+      213: -2029650122142509060
+    second: hjm-random_asteroids-v3-01_121
+  - first:
+      213: -4609045780645848454
+    second: hjm-random_asteroids-v3-01_122
+  - first:
+      213: -8345192447547243321
+    second: hjm-random_asteroids-v3-01_123
+  - first:
+      213: -6137160826831714748
+    second: hjm-random_asteroids-v3-01_124
+  - first:
+      213: 1732527025996698232
+    second: hjm-random_asteroids-v3-01_125
+  - first:
+      213: 7001287532148264894
+    second: hjm-random_asteroids-v3-01_126
+  - first:
+      213: 6933731435269681783
+    second: hjm-random_asteroids-v3-01_127
+  - first:
+      213: 4290060133276555211
+    second: hjm-random_asteroids-v3-01_128
+  - first:
+      213: 7056150080782780914
+    second: hjm-random_asteroids-v3-01_129
+  - first:
+      213: 8582096641211869368
+    second: hjm-random_asteroids-v3-01_130
+  - first:
+      213: -5028660029601440697
+    second: hjm-random_asteroids-v3-01_131
+  - first:
+      213: -8808343261127183869
+    second: hjm-random_asteroids-v3-01_132
+  - first:
+      213: 2726347626059255093
+    second: hjm-random_asteroids-v3-01_133
+  - first:
+      213: -3397998033436871069
+    second: hjm-random_asteroids-v3-01_134
+  - first:
+      213: 4380246604090881380
+    second: hjm-random_asteroids-v3-01_135
+  - first:
+      213: 8261653150962479531
+    second: hjm-random_asteroids-v3-01_136
+  - first:
+      213: 267581701733516988
+    second: hjm-random_asteroids-v3-01_137
+  - first:
+      213: 4560982498604930611
+    second: hjm-random_asteroids-v3-01_138
+  - first:
+      213: -5335163229771417138
+    second: hjm-random_asteroids-v3-01_139
+  - first:
+      213: -2802679905893981561
+    second: hjm-random_asteroids-v3-01_140
+  - first:
+      213: 1327505361621050119
+    second: hjm-random_asteroids-v3-01_141
+  - first:
+      213: 7469505091900305018
+    second: hjm-random_asteroids-v3-01_142
+  - first:
+      213: 7006941980248288301
+    second: hjm-random_asteroids-v3-01_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_0
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1187
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cf39f2e2c0dbe20800000000000000
+      internalID: 3367861488849255426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_1
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1130
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ad7aa066472e4e0800000000000000
+      internalID: -1953871306711115194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_2
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1142
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03f1df793a8f7c50800000000000000
+      internalID: 6665197953093858061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_3
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1101
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65421b9d06e209a0800000000000000
+      internalID: -6268194785235679894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_4
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1088
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5d956992cc658c0800000000000000
+      internalID: -4010793939138652716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_5
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1096
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fb9b2f272dd3200800000000000000
+      internalID: 161516552795569974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_6
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1056
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd40f35af82fba610800000000000000
+      internalID: 1633665988618552540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_7
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1060
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d83bbee6e32acf00800000000000000
+      internalID: 1137761330619168979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_8
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1050
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8795e44b49af5ba00800000000000000
+      internalID: 771798427751045496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_9
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1050
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52ecebdcc643e4f0800000000000000
+      internalID: -800718463064808870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_10
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1002
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef6f11997996b80800000000000000
+      internalID: -8401016946195759515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_11
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1008
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f0bbfde6f6aac80800000000000000
+      internalID: -8310707640368165040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_12
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1013
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3715785d314925bc0800000000000000
+      internalID: -3795808723012202125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_13
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1008
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbed2b39799562e0800000000000000
+      internalID: -2133130102527104062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_14
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1009
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51798033a75be510800000000000000
+      internalID: 1579452452729090394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_15
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 907
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd28df3e376041a0800000000000000
+      internalID: -6827343518036906550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_16
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 966
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1e42047076c1eb0800000000000000
+      internalID: -4747806626316754476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_17
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 954
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9568da1558a7b2070800000000000000
+      internalID: 8082688669266052697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_18
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 905
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f8cf40162483ce0800000000000000
+      internalID: -1425316297599840442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_19
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 955
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8597ab61bfe32c110800000000000000
+      internalID: 1279654492265675096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_20
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 968
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d03b811f1ff7afb0800000000000000
+      internalID: -4636456782451232558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_21
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 961
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a023fa0094276b0800000000000000
+      internalID: -5300093544173532526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_22
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 966
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584ee811707d50d10800000000000000
+      internalID: 2091314027342783621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_23
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 863
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1afefacc7869f30800000000000000
+      internalID: 4581998984090853855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 926
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83c25eb42bee63e0800000000000000
+      internalID: -2058449436617292914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_25
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 863
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef7ffaf2963def00800000000000000
+      internalID: 1147633484953518056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_26
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 913
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a8b1d969e945f90800000000000000
+      internalID: -6965768353917203915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_27
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 926
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34307ad480c593eb0800000000000000
+      internalID: -4739655942098451645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_28
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 914
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f98de340ea465e70800000000000000
+      internalID: 9103546023848806899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_29
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 921
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86364ec17cfee620800000000000000
+      internalID: 2805457183620609679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_30
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 870
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbce4851a2638880800000000000000
+      internalID: -8609929617491440678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_31
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 883
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bd47ef3166ebcb0800000000000000
+      internalID: -4846323912944591969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_32
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 879
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f87799a334dd7ed0800000000000000
+      internalID: -2414540506847020809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_33
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 884
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6da3c03c944b9740800000000000000
+      internalID: 5159793235706752364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_34
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 874
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d6d6a8cbdbaa100800000000000000
+      internalID: 120116957552667916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_35
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 877
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a8691c4634c1cd0800000000000000
+      internalID: -2586117985993848296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_36
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 775
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b97fc4d2396cdc10800000000000000
+      internalID: 2079652794977974709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_37
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 837
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823012bac3567f600800000000000000
+      internalID: 501981194718610216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_38
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 828
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdeaaee5cc8b5b20800000000000000
+      internalID: 3124245548252196282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_39
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 829
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeedda0755059d2a0800000000000000
+      internalID: -6712245441726128406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_40
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 838
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95174820a41847460800000000000000
+      internalID: 7238552655961026905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_41
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 825
+        width: 74
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785aaf77cb5a6bd20800000000000000
+      internalID: 3294002406353446279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_42
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 836
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdf05bc12a541460800000000000000
+      internalID: 7211488004518510071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_43
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 840
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b15fd4056a37a30800000000000000
+      internalID: 4211892940357049166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_44
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 836
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738abeadda69294d0800000000000000
+      internalID: -3129273117622687689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_45
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 836
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af07072644043340800000000000000
+      internalID: 4842500198679121829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_46
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 733
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f991dcbafdbcc370800000000000000
+      internalID: 8344253094218013169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_47
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 791
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934cca3f4460d0760800000000000000
+      internalID: 7425598253819544633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_48
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 788
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9163e94d32ddc0350800000000000000
+      internalID: 5984401150829278745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_49
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 781
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5d147fe708a3be0800000000000000
+      internalID: -1496742643344747043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_50
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 734
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8c6e08df4a96420800000000000000
+      internalID: 2623809666616314095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_51
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 792
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c8bb90428d70000800000000000000
+      internalID: 2207974130682971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_52
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 782
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bac41dc391b3a130800000000000000
+      internalID: 3576897777421306544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_53
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 731
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff79de26f5fc27b90800000000000000
+      internalID: -7245500841897125889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_54
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 785
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50ea1cf82b740ff0800000000000000
+      internalID: -70796278172557221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_55
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 796
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf1af685e590df00800000000000000
+      internalID: 1139575518769323953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_56
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 789
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e304add864be5d070800000000000000
+      internalID: 8130663390547427390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_57
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 794
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dc2e43876083250800000000000000
+      internalID: 5924492423159008563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_58
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 745
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d583f69fb9f5010800000000000000
+      internalID: 1179833123009486153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_59
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 747
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176fe276283d61ea0800000000000000
+      internalID: -5902297704592116111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_60
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 747
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282e40b190c90d960800000000000000
+      internalID: 7624765732060193410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_61
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 749
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3106fe6ec162dc900800000000000000
+      internalID: 706262622142423059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_62
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 686
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8ae79d5bf928640800000000000000
+      internalID: 5080798933014194419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_63
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 741
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5bf19fd3fd192c0800000000000000
+      internalID: -4426511501462882905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_64
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 753
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b544ad1c078c580800000000000000
+      internalID: -8806665093430092905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_65
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 742
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bc7a4353289dc00800000000000000
+      internalID: 925914363429636879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_66
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 750
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a2886d23b5926f0800000000000000
+      internalID: -708935192428402134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_67
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 695
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf771881de5032cd0800000000000000
+      internalID: -2584215245304006660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_68
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 704
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7df8701d1c3c1ce0800000000000000
+      internalID: -1433204485882577541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_69
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 699
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5635672b869aee7a0800000000000000
+      internalID: -6345948557782658203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_70
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 704
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf473fc208e879a0800000000000000
+      internalID: -6234978585330364466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_71
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 700
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2103984845b29c0800000000000000
+      internalID: -3950971319873432927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_72
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 688
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217be7b739763340800000000000000
+      internalID: 4843191729499369767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_73
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 706
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec80e11d74869b50800000000000000
+      internalID: 6599607976663747818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_74
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 642
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94559bbd91eb16180800000000000000
+      internalID: -9123802351806098103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_75
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 701
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef17e592e17d5650800000000000000
+      internalID: 6223255478087393250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_76
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 708
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ad2aa0d90ccef40800000000000000
+      internalID: 5759189804220865084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_77
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 696
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a634c16f28aed0800000000000000
+      internalID: -2402618304251911546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_78
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 706
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c996be1c97777f1e0800000000000000
+      internalID: -2164129731100055140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_79
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 653
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622b394a6070c5d80800000000000000
+      internalID: -8260719891391991258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_80
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 659
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7804bc7b30d0fb0800000000000000
+      internalID: -4680080349844174867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_81
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 653
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71951f104f1f3d40800000000000000
+      internalID: 5566202024713097596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_82
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 660
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e13fc5dbfb4b6eb0800000000000000
+      internalID: -4725599838999203353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_83
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 655
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845b5e95b1d3b00a0800000000000000
+      internalID: -6914365615215626936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_84
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 647
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186868643490b6de0800000000000000
+      internalID: -1338966279661910399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_85
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 663
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fb3c5a8c3b5ccf0800000000000000
+      internalID: -232582131383812317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_86
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 659
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f5506dcdfd29e50800000000000000
+      internalID: 6814755325741457216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_87
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 663
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82798b24ccd13680800000000000000
+      internalID: -8776991463666257268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_88
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 649
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ab78517fac08cf0800000000000000
+      internalID: -251978416565798282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_89
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 613
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dab286a61dc14ae0800000000000000
+      internalID: -1566745698181661998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_90
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 615
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d98a200265b24360800000000000000
+      internalID: 7152478590731979223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_91
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 601
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17119d3e26e1742a0800000000000000
+      internalID: -6753395706140487311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_92
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 614
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ea85c709f248bf0800000000000000
+      internalID: -323080975655850377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_93
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 613
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c43808b9c813add0800000000000000
+      internalID: -2476108115468602176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_94
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 606
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18ac238ac5044d40800000000000000
+      internalID: 5567581406679050266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_95
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 621
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fd533ee5d28a490800000000000000
+      internalID: -7734882474446692601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_96
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 600
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11d25aed0ce88500800000000000000
+      internalID: 398828111532314911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_97
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 617
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d4162bd9603e560800000000000000
+      internalID: 7341719091916393810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_98
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 618
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c74d0b397e433f50800000000000000
+      internalID: 6859912940004132800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_99
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 570
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c1259b48ba20ac0800000000000000
+      internalID: -3890358541561488284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_100
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 572
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e634843ccf4ee1f80800000000000000
+      internalID: -8133812102725352594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_101
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 556
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f8c3f48f2195c60800000000000000
+      internalID: 7807292286714023788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_102
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 572
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f99edb01734782e0800000000000000
+      internalID: -2123654546472396301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_103
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 573
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dfbebc80cfba510800000000000000
+      internalID: 1561618810525187471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_104
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 565
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e714a5b8d6971ff0800000000000000
+      internalID: -65417812069050395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_105
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 576
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce1fc726ea63a310800000000000000
+      internalID: 1415092244667375305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_106
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 558
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67ac71e4e0b29ab0800000000000000
+      internalID: -5002741738973124758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_107
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 572
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5ad3af102748dc0800000000000000
+      internalID: -3637657246189640275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_108
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 523
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d5bbf00cfcfc130800000000000000
+      internalID: 3589315851842182513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_109
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 527
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d0877d68565d4f0800000000000000
+      internalID: -804625328600773267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_110
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 519
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ff324adb5cc5eb0800000000000000
+      internalID: -4729688090352550075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_111
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 530
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d308d0e1263fb180800000000000000
+      internalID: -9097493203131038759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_112
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 529
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9724f29d1596f6840800000000000000
+      internalID: 5219506293402714745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_113
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 517
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6de2fe381c8cbf70800000000000000
+      internalID: 9204385774201662827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_114
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 470
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11d86eb902e568a0800000000000000
+      internalID: -6312390771212758756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_115
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 530
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce5fd71fae0e6470800000000000000
+      internalID: 8389659301020393152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_116
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 516
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb964f428c40bfa30800000000000000
+      internalID: 4249995931014162878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_117
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 478
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534484bc83a175140800000000000000
+      internalID: 4708260766670144565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_118
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 484
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a31f351cf0826c0800000000000000
+      internalID: -4168064132119971285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_119
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 482
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d3eb09202bc01b0800000000000000
+      internalID: -5688976505187713655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_120
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 488
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00912c797e6b4d750800000000000000
+      internalID: 6328884482162170112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_121
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 483
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf71e5ba7fb35d3e0800000000000000
+      internalID: -2029650122142509060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_122
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 423
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a571348416900c0800000000000000
+      internalID: -4609045780645848454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_123
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 484
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c48ca50fabef2c80800000000000000
+      internalID: -8345192447547243321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_124
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 434
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446c04b7ebc64daa0800000000000000
+      internalID: -6137160826831714748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_125
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 442
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8721c4c962c2b0810800000000000000
+      internalID: 1732527025996698232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_126
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 435
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf81148ae1992160800000000000000
+      internalID: 7001287532148264894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_127
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 443
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772753ff000993060800000000000000
+      internalID: 6933731435269681783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_128
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 437
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7930526fa598b30800000000000000
+      internalID: 4290060133276555211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_129
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 394
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9c6e60d1b7ce160800000000000000
+      internalID: 7056150080782780914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_130
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 399
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8a18fdc6bb91770800000000000000
+      internalID: 8582096641211869368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_131
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 387
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c9667985c963ab0800000000000000
+      internalID: -5028660029601440697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_132
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 399
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302feccf87a72c580800000000000000
+      internalID: -8808343261127183869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_133
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 390
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dcd7998bee5d520800000000000000
+      internalID: 2726347626059255093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_134
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 353
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366f48dbac2e7d0d0800000000000000
+      internalID: -3397998033436871069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_135
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 354
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465b2713413c9cc30800000000000000
+      internalID: 4380246604090881380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_136
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 341
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1fa98c4c947a270800000000000000
+      internalID: 8261653150962479531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_137
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 295
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb68838d324a6b300800000000000000
+      internalID: 267581701733516988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_138
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 355
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336de18da6ddb4f30800000000000000
+      internalID: 4560982498604930611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_139
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 306
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9bfb63f41b5f5b0800000000000000
+      internalID: -5335163229771417138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_140
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 309
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782601e8971ea19d0800000000000000
+      internalID: -2802679905893981561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_141
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 260
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70369dcc71f3c6210800000000000000
+      internalID: 1327505361621050119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_142
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 264
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e60b25e4309a760800000000000000
+      internalID: 7469505091900305018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-random_asteroids-v3-01_143
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 215
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ca87e4b98ad3160800000000000000
+      internalID: 7006941980248288301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

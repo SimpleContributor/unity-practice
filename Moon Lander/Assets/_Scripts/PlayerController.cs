@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
+    BoxCollider2D boxColl;
     public Animator anims;
 
     [Header("Rocket Properties")]
@@ -14,6 +15,7 @@ public class PlayerController : MonoBehaviour
 
     float vInput, hInput;
     bool thrusting = false;
+    bool alive = true;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.rotation = 0;
 
+        boxColl = GetComponent<BoxCollider2D>();
         anims = GetComponent<Animator>();
     }
 
@@ -70,8 +73,23 @@ public class PlayerController : MonoBehaviour
 
             if (collision.relativeVelocity.magnitude > crashForce)
             {
-                Destroy(this.gameObject);
+                Die();
             }
         }
+
+        if (collision.gameObject.CompareTag("Asteroid"))
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        alive = false;
+        boxColl.isTrigger = true;
+        rb.isKinematic = true;
+        rb.velocity = Vector2.zero;
+        anims.SetBool("Alive", false);
+        Destroy(this.gameObject, 1f);
     }
 }
