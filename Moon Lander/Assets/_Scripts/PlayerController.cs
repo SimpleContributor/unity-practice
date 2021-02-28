@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
     BoxCollider2D boxColl;
+    GameController gameController;
+
     public Animator anims;
 
     [Header("Rocket Properties")]
@@ -15,7 +17,6 @@ public class PlayerController : MonoBehaviour
 
     float vInput, hInput;
     bool thrusting = false;
-    bool alive = true;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,8 @@ public class PlayerController : MonoBehaviour
 
         boxColl = GetComponent<BoxCollider2D>();
         anims = GetComponent<Animator>();
+
+        gameController = FindObjectOfType<GameController>();
     }
 
     // Update is called once per frame
@@ -43,13 +46,11 @@ public class PlayerController : MonoBehaviour
             rb.AddRelativeForce(new Vector2(0, vInput * thrustForce));
             anims.SetBool("Thrusting", true);
             thrusting = true;
-            Debug.Log("Thrusting!!!");
         }
         else if (vInput == 0 && thrusting)
         {
             anims.SetBool("Thrusting", false);
             thrusting = false;
-            Debug.Log("No longer thrusting!!!");
         }
     }
 
@@ -67,14 +68,17 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // Force in Newtons (mass / 2 * velocity * velocity)
+        float collForce = (rb.mass / 2) * Mathf.Pow(collision.relativeVelocity.magnitude, 2);
+
         if (collision.gameObject.tag == "Ground")
         {
-            float collForce = (rb.mass / 2) * Mathf.Pow(collision.relativeVelocity.magnitude, 2);
-
             if (collision.relativeVelocity.magnitude > crashForce)
             {
                 Die();
             }
+
+            Success();
         }
 
         if (collision.gameObject.CompareTag("Asteroid"))
@@ -83,13 +87,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void Success()
+    {
+        Debug.Log("Successful landing!!!");
+    }
+
     void Die()
     {
-        alive = false;
         boxColl.isTrigger = true;
         rb.isKinematic = true;
         rb.velocity = Vector2.zero;
+        rb.freezeRotation = true;
         anims.SetBool("Alive", false);
-        Destroy(this.gameObject, 1f);
+        Destroy(this.gameObject, 1.3f);
+        gameController.ResetLevel();
     }
 }

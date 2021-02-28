@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AsteroidMovement : MonoBehaviour
-{
-    PlayerController player;
-
+{ 
     public Vector2 moveDir = new Vector2(1f, 1f);
     public float rotSpeed = 1f;
 
@@ -14,7 +12,6 @@ public class AsteroidMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<PlayerController>();
         rb = GetComponent<Rigidbody2D>();
     }
 
