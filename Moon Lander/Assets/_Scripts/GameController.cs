@@ -31,6 +31,31 @@ public class GameController : MonoBehaviour
         StartCoroutine(LoadNextScene());
     }
 
+    public void Quit()
+    {
+        Debug.Log("Quitting game...");
+        Application.Quit();
+    }
+
+    public void StartGame()
+    {
+        int currentSceneIdx = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIdx = currentSceneIdx + 1;
+
+        if (nextSceneIdx == SceneManager.sceneCountInBuildSettings)
+        {
+            nextSceneIdx = 0;
+        }
+
+        SceneManager.LoadScene(nextSceneIdx);
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+    }
+
     IEnumerator LoadNextScene()
     {
         yield return new WaitForSeconds(3f);

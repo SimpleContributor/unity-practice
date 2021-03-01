@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         HandleThrust();
         HandleRotation();
+        StayOnScreen();
     }
 
     void HandleThrust()
@@ -101,5 +102,13 @@ public class PlayerController : MonoBehaviour
         anims.SetBool("Alive", false);
         Destroy(this.gameObject, 1.3f);
         gameController.ResetLevel();
+    }
+
+    void StayOnScreen()
+    {
+        float xClamp = Mathf.Clamp(rb.transform.position.x, -12f, 12f);
+        float yClamp = Mathf.Clamp(rb.transform.position.y, -22f, 22f);
+        transform.position = new Vector2(xClamp, yClamp);
+
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -11,6 +12,17 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenu.SetActive(false);
     }
+
+    private void Update()
+    {
+        
+    }
+
+
+
+
+
+
 
     public void Pause()
     {
