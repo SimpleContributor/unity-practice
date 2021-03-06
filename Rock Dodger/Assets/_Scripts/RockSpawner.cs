@@ -5,19 +5,38 @@ using UnityEngine;
 public class RockSpawner : MonoBehaviour
 {
     public GameObject rockGO;
+    Rock rock;
 
     public float spawnTimer = 1f;
+    public float maxRockSpeed = 40f;
 
     float screenEdge;
     float screenHeight;
 
     float count = 0f;
+    float timer = 0f;
+    float difficultyTimer = 5f;
+
 
     // Start is called before the first frame update
     void Start()
     {
         screenEdge = Camera.main.aspect * Camera.main.orthographicSize;
         screenHeight = screenEdge / 9 * 16;
+
+        rock = rockGO.GetComponent<Rock>();
+
+        rock.rockSpeed = 10f;
+    }
+
+    private void Update()
+    {
+        timer += Time.deltaTime;
+
+        if (timer > difficultyTimer)
+        {
+            IncreaseDiff();
+        }
     }
 
     // Update is called once per frame
@@ -52,12 +71,14 @@ public class RockSpawner : MonoBehaviour
         }
     }
 
-    IEnumerator Spawn()
+    void IncreaseDiff()
     {
-        yield return new WaitForSeconds(1f);
-        Vector3 randomPos = new Vector3(Random.Range(-screenEdge, screenEdge), transform.position.y, transform.position.z);
-        GameObject newRock = (GameObject)Instantiate(rockGO);
-        newRock.transform.parent = transform;
-        newRock.transform.position = randomPos;
+        // Each variable is independent, so an adjustment to one needs to be equal in ratio to the other
+        if (rock.rockSpeed < maxRockSpeed && spawnTimer > 0.2f)
+        {
+            rock.rockSpeed += 5f;
+            spawnTimer -= 0.2f;
+            timer = 0f;
+        }
     }
 }

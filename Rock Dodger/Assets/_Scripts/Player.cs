@@ -6,16 +6,13 @@ public class Player : MonoBehaviour
 {
     public float playerSpeed = 10f;
 
-    Rigidbody2D rb;
-
     float horz;
     float screenEdge;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        screenEdge = (Camera.main.aspect * Camera.main.orthographicSize) + (rb.transform.localScale.x / 2);
+        screenEdge = (Camera.main.aspect * Camera.main.orthographicSize) + (transform.localScale.x / 2);
     }
 
     // Update is called once per frame
@@ -44,13 +41,13 @@ public class Player : MonoBehaviour
     void ScreenWrap()
     {
         
-        if (rb.transform.position.x > screenEdge)
+        if (transform.position.x > screenEdge)
         {
-            rb.transform.position = new Vector2(-screenEdge, rb.transform.position.y);
+            transform.position = new Vector2(-screenEdge, transform.position.y);
         }
-        else if (rb.transform.position.x < -screenEdge)
+        else if (transform.position.x < -screenEdge)
         {
-            rb.transform.position = new Vector2(screenEdge, rb.transform.position.y);
+            transform.position = new Vector2(screenEdge, transform.position.y);
         }
         
     }

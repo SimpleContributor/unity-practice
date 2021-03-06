@@ -5,7 +5,7 @@ using UnityEngine;
 public class Rock : MonoBehaviour
 {
     Rigidbody2D rb;
-    public float rockSpeed = 10f;
+    public float rockSpeed;
     float screenHeight;
 
     // Start is called before the first frame update
@@ -23,6 +23,16 @@ public class Rock : MonoBehaviour
         if (transform.position.y < -(screenHeight + transform.localScale.y))
         {
             Destroy(this.gameObject);
+        }
+
+        Debug.Log(rockSpeed);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("Player"))
+        {
+            Destroy(collision.gameObject);
         }
     }
 }
