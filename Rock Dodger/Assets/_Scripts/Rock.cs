@@ -18,21 +18,10 @@ public class Rock : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log(screenHeight);
         rb.transform.Translate(Vector2.down * rockSpeed * Time.deltaTime);
         if (transform.position.y < -(screenHeight + transform.localScale.y))
         {
             Destroy(this.gameObject);
-        }
-
-        Debug.Log(rockSpeed);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.CompareTag("Player"))
-        {
-            Destroy(collision.gameObject);
         }
     }
 }
