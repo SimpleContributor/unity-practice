@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 241120257}
   - component: {fileID: 241120258}
   m_Layer: 5
-  m_Name: Pause Menu
+  m_Name: Pause Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7b4539e7daa0fa4b9c2cf8297386140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 241120252}
+  pausePanel: {fileID: 822873089}
 --- !u!114 &241120258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1178,7 +1178,7 @@ GameObject:
   - component: {fileID: 822873092}
   - component: {fileID: 822873091}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Pause Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

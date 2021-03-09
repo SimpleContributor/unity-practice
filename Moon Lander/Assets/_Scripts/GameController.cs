@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public PauseMenu pauseMenu;
+    PauseMenu pauseMenu;
     // Start is called before the first frame update
     void Start()
     {
-        //pauseMenu = FindObjectOfType<PauseMenu>();
+        pauseMenu = FindObjectOfType<PauseMenu>();
     }
 
     // Update is called once per frame

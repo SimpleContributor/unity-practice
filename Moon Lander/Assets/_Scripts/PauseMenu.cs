@@ -5,37 +5,28 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu;
+    public GameObject pausePanel;
 
     // Start is called before the first frame update
     void Start()
     {
-        pauseMenu.SetActive(false);
+        if (pausePanel.activeInHierarchy)
+        {
+            pausePanel.SetActive(false);
+        }
     }
-
-    private void Update()
-    {
-        
-    }
-
-
-
-
-
-
 
     public void Pause()
     {
         if (Time.timeScale > 0f)
         {
-            pauseMenu.SetActive(true);
+            pausePanel.SetActive(true);
             Time.timeScale = 0f;
         } 
         else
         {
-            float timeLerp = Mathf.Lerp(0f, 1f, 1f);
-            Time.timeScale = timeLerp;
-            pauseMenu.SetActive(false);
+            pausePanel.SetActive(false);
+            Time.timeScale = 1f;
         }
     }
 

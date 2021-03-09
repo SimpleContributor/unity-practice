@@ -18,6 +18,10 @@ public class PlayerController : MonoBehaviour
     float vInput, hInput;
     bool thrusting = false;
 
+    float screenWidth;
+    float screenHeight;
+    float playerHeight;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +32,11 @@ public class PlayerController : MonoBehaviour
         anims = GetComponent<Animator>();
 
         gameController = FindObjectOfType<GameController>();
+
+        float camDimensions = Camera.main.aspect * Camera.main.orthographicSize;
+        playerHeight = transform.localScale.y / 2;
+        screenWidth = camDimensions + playerHeight;
+        screenHeight = (camDimensions - playerHeight) / 9 * 16;
     }
 
     // Update is called once per frame
@@ -35,7 +44,7 @@ public class PlayerController : MonoBehaviour
     {
         HandleThrust();
         HandleRotation();
-        StayOnScreen();
+        ScreenWrap();
     }
 
     void HandleThrust()
@@ -66,6 +75,29 @@ public class PlayerController : MonoBehaviour
         // Same behavior as rb.transform.Rotate except it should be used for 2D and .Rotate() for 3D
         //rb.rotation += hInput * rotForce * Time.fixedDeltaTime;
     }
+
+    void ScreenWrap()
+    {
+        if (transform.position.x > screenWidth)
+        {
+            transform.position = new Vector2(-screenWidth, transform.position.y);
+        }
+        else if (transform.position.x < -screenWidth)
+        {
+            transform.position = new Vector2(screenWidth, transform.position.y);
+        }
+
+        if (transform.position.y > screenHeight)
+        {
+            transform.position = new Vector2(transform.position.x, screenHeight);
+        }
+        else if (transform.position.y < -screenHeight)
+        {
+            transform.position = new Vector2(transform.position.x, -screenHeight);
+        }
+    }
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -102,13 +134,5 @@ public class PlayerController : MonoBehaviour
         anims.SetBool("Alive", false);
         Destroy(this.gameObject, 1.3f);
         gameController.ResetLevel();
-    }
-
-    void StayOnScreen()
-    {
-        float xClamp = Mathf.Clamp(rb.transform.position.x, -12f, 12f);
-        float yClamp = Mathf.Clamp(rb.transform.position.y, -22f, 22f);
-        transform.position = new Vector2(xClamp, yClamp);
-
-    }
+    }   
 }

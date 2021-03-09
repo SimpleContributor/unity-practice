@@ -21,13 +21,4 @@ public class AsteroidMovement : MonoBehaviour
         rb.velocity = moveDir;
         rb.rotation += rotSpeed;
     }
-
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Player"))
-    //    {
-    //        player.anims.SetBool("Alive", false);
-    //        Destroy(this.gameObject, 0.5f);
-    //    }
-    //}
 }
